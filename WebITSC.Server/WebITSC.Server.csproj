@@ -17,14 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\Administracion\" />
-    <Folder Include="Controllers\Alumnos\" />
     <Folder Include="Controllers\Profesores\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Repositorio\Repositorio.csproj" />
-    <ProjectReference Include="..\WebITSC.Admin.Client\WebITSC.Admin.Client.csproj" />
+    <ProjectReference Include="..\WebITSC.Client\WebITSC.Client.csproj" />
     <ProjectReference Include="..\WebITSC.DB\WebITSC.DB.csproj" />
     <ProjectReference Include="..\WebITSC.Shared\WebITSC.Shared.csproj" />
   </ItemGroup>

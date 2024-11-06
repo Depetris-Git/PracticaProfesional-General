@@ -5,15 +5,13 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositorio", "Repositorio\Repositorio.csproj", "{8BE3568F-3301-405F-8355-801076997E18}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clientes", "Clientes", "{D9416287-3502-4E17-AD24-19EB13050CD8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebITSC.DB", "WebITSC.DB\WebITSC.DB.csproj", "{03124C44-87A6-4C9B-AA4F-080C57B0A017}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebITSC.Server", "WebITSC.Server\WebITSC.Server.csproj", "{6F7A157D-4E2A-4A7A-BA23-3A6D846B8B0D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebITSC.Shared", "WebITSC.Shared\WebITSC.Shared.csproj", "{A2D79438-F8C4-4BBB-A7CC-9AD026C44460}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebITSC.Admin.Client", "WebITSC.Admin.Client\WebITSC.Admin.Client.csproj", "{70D94F5E-F190-44D5-8548-9F791DBAAEDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebITSC.Client", "WebITSC.Client\WebITSC.Client.csproj", "{27E515AA-5B55-4D80-B101-805B1FF6B273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,16 +35,13 @@ Global
 		{A2D79438-F8C4-4BBB-A7CC-9AD026C44460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D79438-F8C4-4BBB-A7CC-9AD026C44460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D79438-F8C4-4BBB-A7CC-9AD026C44460}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70D94F5E-F190-44D5-8548-9F791DBAAEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70D94F5E-F190-44D5-8548-9F791DBAAEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70D94F5E-F190-44D5-8548-9F791DBAAEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70D94F5E-F190-44D5-8548-9F791DBAAEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E515AA-5B55-4D80-B101-805B1FF6B273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E515AA-5B55-4D80-B101-805B1FF6B273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E515AA-5B55-4D80-B101-805B1FF6B273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E515AA-5B55-4D80-B101-805B1FF6B273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{70D94F5E-F190-44D5-8548-9F791DBAAEDB} = {D9416287-3502-4E17-AD24-19EB13050CD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CB66B2B-799C-4F86-B4D1-1ACAFE5F6D9D}
